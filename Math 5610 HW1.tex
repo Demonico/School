@@ -1,0 +1,52 @@
+\documentclass[letterpaper,11pt]{article}
+
+% % % packages % % %
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+% % % Title % % % 
+\author{Jarrod Van Doren}
+\title{Math 5610 HW 1}
+\date{\today}
+
+
+\begin{document}
+	\maketitle
+	\section*{Intro}
+	In this assignment I use the same assumptions for constants and notation as in the hand out.
+
+	\section*{Exercise 1}
+	\[ \mathbf{O} = 
+	  \begin{pmatrix}
+	    (R + h) * \cos(lat) * \cos(lon)\\
+	    (R + h) * \cos(lat) * \sin(lon)\\
+	    (R + h) * sin(lat)
+	  \end{pmatrix} \]
+
+	\section*{Exercise 2}
+	  Wright a program that converts angles from degrees, minutes and seconds to radians
+	  and vice versa.
+	  
+	\section*{Exercise 3}
+	  \[\mathbf{x}(0) =    
+	    \begin{pmatrix}
+	    (R + h(t)) * \cos(\psi(t)) * \cos(\lambda(t))\\
+	    (R + h(t)) * \cos(\psi(t)) * \sin(\lambda(t))\\
+	    (R + h(t)) * sin(\psi(t))
+	    \end{pmatrix}  \]
+	
+	\section*{Exercise 4}
+	  \[\mathbf{x}(t) = 
+	  \begin{pmatrix}
+	  (R + h) * \cos((\psi_d + \frac{\psi_m}{60} + \frac{\psi_s}{3600})t) *
+	  \cos((\lambda_d + \frac{\lambda_m}{60} + \frac{\lambda_s}{3600})t)\\
+	  (R + h) * \cos((\psi_d + \frac{\psi_m}{60})t) * 
+	  \sin((\lambda_d + \frac{\lambda_m}{60} + \frac{\lambda_s}{3600})t)\\
+	  (R + h) * sin((\psi_d + \frac{\psi_m}{60} + \frac{\psi_s}{3600})t)
+	  \end{pmatrix}  \]
+	
+	\section*{Exercise 5}
+	  
+	
+\end{document}
