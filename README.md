@@ -1,2 +1,2 @@
 # School
-Repository for some homework and projects
+Repository for projects and some homework
